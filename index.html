@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Say Hi!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Say Hi!</h1>
+        <div class="formularioOuter">
+          <div class="formularioInner">
+            <p id="dynamicText">
+              Hello! Tell us your name and age to get an unique message!
+            </p>
+            <form action="">
+              <input type="text" name="name" id="name" placeholder="Name..." />
+              <input type="text" name="age" id="age" placeholder="Age..." />
+              <button id="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="outerBox">
+        <div class="innerBox">
+          <p id="display">|</p>
+          <button id="clear">Clear</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
